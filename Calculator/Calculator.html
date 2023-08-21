@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Calculator.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="cnt">
+        <div id="scrs">
+            <input type="text" placeholder="0" id="scr">
+        </div>
+        <div id="box">
+            <div>
+                <button value="AC" id="ac" class="operator">AC</button>
+                <button value="DEL" id="del" class="operator"><i class="fa-solid fa-delete-left"></i></button>
+                <button value="%" class="operator">%</button>
+                <button value="/" class="operator">/</button>
+            </div>
+            <div>
+                <button value="7">7</button>
+                <button value="8">8</button>
+                <button value="9">9</button>
+                <button value="*" class="operator" >*</button>
+            </div>
+            <div>
+                <button value="4">4</button>
+                <button value="5">5</button>
+                <button value="6">6</button>
+                <button value="-" class="operator">-</button>
+            </div>
+            <div>
+                <button value="1">1</button>
+                <button value="2">2</button>
+                <button value="3">3</button>
+                <button value="+" class="operator" >+</button>
+            </div>
+            <div>
+                <button value="00">00</button>
+                <button value="0">0</button>
+                <button value=".">.</button>
+                <button value="=" id="equal">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="Calculator.js"></script>
+</body>
+
+</html>
